@@ -5,12 +5,12 @@
 {
     "name": "Business process Portal",
     "summary": "Access to Business process from portal",
-    "version": "16.0.0.0.1",
+    "version": "16.0.0.0.2",
     "author": "Terrabit, Dorin Hongu,NextERP Romania",
     "website": "https://www.terrabit.ro",
     "license": "OPL-1",
     "category": "Generic Modules/Other",
-    "depends": ["base", "mail", "portal", "deltatech_business_process"],
+    "depends": ["portal", "deltatech_business_process"],
     "data": [
         "security/security.xml",
         "security/ir.model.access.csv",
